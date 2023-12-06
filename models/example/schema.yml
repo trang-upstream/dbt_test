@@ -20,7 +20,7 @@ models:
           - unique
           - not_null
   
-   - name: consumer
+  - name: consumer
     description: "consumer model"
     columns:
       - name: last_name
