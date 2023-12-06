@@ -19,3 +19,15 @@ models:
         tests:
           - unique
           - not_null
+  
+   - name: consumer
+    description: "consumer model"
+    columns:
+      - name: last_name
+        description: "last name of a user"
+      - name: source_id
+        description: "source id of the google sheet"
+      - name: deliver_addresses
+        description: "deliver addresses of the user"
+      - name: first_name
+        description: "first name of a user"
